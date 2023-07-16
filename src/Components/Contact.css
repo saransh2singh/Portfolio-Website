@@ -1,0 +1,80 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  overflow-x: hidden;
+  background-color: #fff;
+  padding-top: 6em;
+  padding-bottom: 8em;
+  opacity: 0;
+  transition: 0.5s;
+}
+.contact.active {
+  opacity: 1;
+}
+.section--contact {
+  color: darkcyan;
+  font-size: 1.2em;
+}
+.bottom {
+  padding-top: 5em;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.links {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+.links:hover {
+  background: lightseagreen;
+  border-radius: 2em;
+}
+.flexx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rightt {
+  padding-left: 8em;
+}
+.lefttt {
+  text-align: center;
+  padding-right: 4em;
+  padding-left: 2em;
+}
+.pd {
+  padding: 1em;
+  margin-top: 3em;
+}
+
+@media all and (max-width: 900px) {
+  .rightt {
+    padding-left: 0;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .flx-dir {
+    display: flex;
+    flex-direction: column;
+  }
+  .lefttt {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .rightt {
+    margin-bottom: 2em;
+  }
+  .links {
+    flex-direction: column;
+    padding: 1em 5em;
+  }
+}

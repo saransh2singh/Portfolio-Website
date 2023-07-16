@@ -1,0 +1,38 @@
+.foot {
+  background-color: #2d2e32;
+  min-height: 5em;
+  color: white;
+  font-size: 0.9em;
+  padding: 2em;
+  overflow-x: hidden;
+}
+/* .m--left{
+    padding-left: 4em;
+} */
+.flexx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftt {
+  margin-left: 2em;
+}
+.cen {
+  text-align: center;
+}
+.copyright {
+  padding-right: 2em;
+}
+.socialss {
+  color: white;
+}
+.socialss:hover {
+  color: lightseagreen;
+}
+
+@media all and (max-width: 450px) {
+  .copyright {
+    font-size: 1em;
+    padding-bottom: 1em;
+  }
+}
